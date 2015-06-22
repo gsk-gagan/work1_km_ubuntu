@@ -1,0 +1,82 @@
+
+/*Fullscreen Background*/
+body {
+	/* important */
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+}
+
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/cd-background-4.jpg");
+}
+/*The below code is used to make everything scrolling below 1170px*/
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed; /*Above media can be replaced by moving this line to an fixed attribute*/
+  }
+}
+
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 50%;  /*To specify the scroll bar height*/
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+
+
+.center_div{
+    margin: 0 auto;
+    width:80%; /* value of your choice which suits your alignment */
+}
+
+
+.services {
+    text-align: center;
+}
+
+.well{
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  border: none;
+  background-color: rgba(105,100,100,0.6);
+  margin-left: auto ;
+  margin-right: auto ;
+}

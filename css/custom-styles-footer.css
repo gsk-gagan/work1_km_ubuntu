@@ -1,0 +1,14 @@
+footer.ftr {
+	background: #444444;
+	color: white;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+footer.ftr a {
+	color: #CCCCCC;
+}
+
+footer.ftr a:hover {
+	color: #EEEEEE !important;
+}
