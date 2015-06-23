@@ -411,14 +411,12 @@
 
 			</div><!-- col-md-6 -->
 
-			<div class="col-md-5" style="padding:0px;">
-				<!-- <div class="row">
-					<div class="col-md-offset-1 col-md-11">
-						<h1>this</h1>
-						<h1>is</h1>
-						<h1>the</h1>
+			<div class="col-md-5">
+				<div class="row from-to-sidebar">
+					<div class="col-xs-12">
+						<p style="color:white;">Content</p>
 					</div>
-				</div> -->
+				</div><!-- From To Side Selector -->
 				<div class="img-custom">
 				</div>	
 				<div class="white-gradient">
