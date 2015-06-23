@@ -432,6 +432,60 @@
 						<button type="submit" class="btn btn-default btn-sm btn-block">Let's Go</button>
 					</div>
 				</div><!-- From To Side Selector -->
+				
+
+				<div class="row car-type-sidebar">
+					<div class="row">
+						<div class="col-xs-12">
+							<h3 class="margin-less-text-cab">Cab Type</h3>
+						</div>
+					</div>
+					
+
+					<div class="row cab-type-img" style="width:120%">
+						<div class="col-xs-2">
+							<div class="row">
+								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/auto.png" alt=""></div>
+								<div class="col-xs-offset-4 col-xs-3">
+									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="row">
+								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/hatch.png" alt=""></div>
+								<div class="col-xs-offset-4 col-xs-3">
+									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="row">
+								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/sedan.png" alt=""></div>
+								<div class="col-xs-offset-4 col-xs-3">
+									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="row">
+								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/suv.png" alt=""></div>
+								<div class="col-xs-offset-4 col-xs-3">
+									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="row">
+								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/limo.png" alt=""></div>
+								<div class="col-xs-offset-4 col-xs-3">
+									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+								</div>
+							</div>
+						</div>
+					</div> <!-- Car Type-->
+				</div><!-- Car Type Sidebar -->
+
 				<div class="img-custom">
 				</div>	
 				<div class="white-gradient">

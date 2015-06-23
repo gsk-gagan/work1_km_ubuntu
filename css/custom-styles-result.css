@@ -105,3 +105,37 @@ img {
     padding-right: 4px;
 }
 
+.car-type-sidebar{
+    position: fixed;
+    width: 42%;
+    top: 190px;
+
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgba(252,252,252,.85);
+    box-shadow: -3px 3px 3px rgba(4,4,4,.4);
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.margin-less-text-cab {
+    margin: 0px;
+    font-weight: bold;
+    color: rgb(2,160,225);
+    font-size: 150%;
+}
+
+.car-type-sidebar > div{
+    position: relative;
+}
+
+.cab-type-img > div {
+    padding: 0px;
+}
+
+.cab-type-check {
+    position: relative;
+    top: -10px;
+}
