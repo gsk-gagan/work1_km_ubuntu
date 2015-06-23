@@ -32,6 +32,7 @@
 			<div class="col-md-1">
 					
 			</div><!-- col-md-1 -->
+
 			<div class="col-md-6">
 				<ul class="nav nav-tabs nav-justified" role="tablist">
 					<li role="presentation" class="active"><a href="#cheap-tab" role="tab" data-toggle="tab"><h4>Cheapest</h4></a></li>
@@ -407,10 +408,16 @@
 						<h2 class="text-center">Comming Soon</h2>
 					</div>
 				</div>
-	
-		</div><!-- col-md-6 -->
+			</div><!-- col-md-6 -->
+
 			<div class="col-md-5" style="padding:0px;">
-				
+				<!-- <div class="row">
+					<div class="col-md-offset-1 col-md-11">
+						<h1>this</h1>
+						<h1>is</h1>
+						<h1>the</h1>
+					</div>
+				</div> -->
 				<div class="img-custom">
 				</div>	
 				<div class="white-gradient">
