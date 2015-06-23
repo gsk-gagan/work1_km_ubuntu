@@ -6,9 +6,9 @@
 	<title>Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
 	<!-- Local -->
-	<!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 	<!-- Optional theme - Transparent div not working -->
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
 	<!--[if lt IE 9]>
@@ -43,227 +43,23 @@
 				<div class="tab-content">
 					<div class="tab-pane fade active in" id="cheap-tab" style="height:100%;"><!-- Local Styling --> <!-- To change height dynamically -->
 						
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/ola.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Hatchback</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>					
-
-						<hr style="margin:10px;">
-
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/tfs.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Sedan</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>
-
-						<hr style="margin:10px;">
-
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/easy.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Hatchback</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>
-
-						<hr style="margin:10px;">
-						
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/mega.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Sedan</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>					
-
-						<hr style="margin:10px;">
-						
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
+						<div class="row" style="margin-left:-5px; margin-right:-5px;">
+							<div class="col-xs-4 col-lg-2 vcenter-img">
 								<img src="img/cmp/uber.jpg" alt="" class="img-responsive center-block">
 							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
+							<div class="col-xs-4 col-lg-2 vcenter-img">
 								<div class="row">
 									<div class="col-xs-12">
-										<img src="img/cab-type/limo.png" alt="" class="img-responsive center-block">
+										<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Limo</p>
+										<p class="text-center margin-less-text" style="font-size:90%;">Hatchback</p>
 									</div>
 								</div>
 							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
+							<div class="col-xs-4 col-lg-2 vcenter-text">
 								<div class="row">
 									<div class="col-xs-12">
 										<p class="text-center" style="font-size:80%;">
@@ -283,121 +79,20 @@
 									</div>
 								</div>
 							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
+							<div class="col-xs-4 col-lg-2 vcenter-text">
 								<h3 class="text-center margin-less-text">
 									<span class="label label-info">Offers!!!</span>
 								</h3>
 							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
+							<div class="col-xs-4 col-lg-2 vcenter-text">
 								<p class="text-center margin-less-text">Cost</p>
 							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
+							<div class="col-xs-4 col-lg-2 vcenter-text">
+								<a href="#" class="btn btn-primary btn-block">Book Now</a>
 							</div><!-- Book Now -->
 						</div>					
 
 						<hr style="margin:10px;">
-						
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/meru.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/suv.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">SUV</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>	
-
-						<hr style="margin:10px;">
-						
-						<div class="row">
-							<div class="col-md-2 vcenter" style="padding-right:0px;">
-								<img src="img/cmp/taxi-pixi.jpg" alt="" class="img-responsive center-block">
-							</div><!-- Logo -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:90%;">Sedan</p>
-									</div>
-								</div>
-							</div><!-- Cab Type -->
-							<div class="col-md-2 vcenter">
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center" style="font-size:80%;">
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-											<span class="glyphicon glyphicon-star"></span>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12">
-										<p class="text-center margin-less-text" style="font-size:80%;">
-											7 Ratings
-										</p>
-									</div>
-								</div>
-							</div><!-- Rating -->
-							<div class="col-md-2 vcenter">
-								<h3 class="text-center margin-less-text">
-									<span class="label label-info">Offers!!!</span>
-								</h3>
-							</div><!-- Offers -->
-							<div class="col-md-2 vcenter">
-								<p class="text-center margin-less-text">Cost</p>
-							</div><!-- Cost -->
-							<div class="col-md-2 vcenter">
-								<a href="#" class="btn btn-primary">Book Now</a>
-							</div><!-- Book Now -->
-						</div>					
-
 
 
 					</div>
@@ -434,14 +129,59 @@
 </body>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 <!-- Local -->
-<!-- <script src="bootstrap/jquery.min.js"></script> -->
+<script src="bootstrap/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 <!-- Local -->
-<!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+<script src="bootstrap/bootstrap.min.js"></script>
 <script src="js/custom-script.js"></script>
 <script src="js/custom-script-navbar.js"></script>
+
+<script>
+(function( $ ){
+	$.fn.myfunction = function() {
+
+		$(this).css("padding-top",0);
+		$(this).css("padding-bottom",0);
+		$(this).css("margin-top",0);
+		$(this).css("margin-bottom",0);
+
+		var height = $(this).outerHeight(true);
+		var diff = (80 - height)/2;
+
+		if(diff > 0)
+		{
+			$(this).css("padding-top",diff);
+			$(this).css("padding-bottom",diff);
+		}
+
+		return this;
+	};
+})( jQuery );
+
+$(document).ready(function(){
+	$('.vcenter-text').each(function(){
+		$(this).myfunction();
+	});
+});
+
+$(window).load(function(){
+	$('.vcenter-img').each(function(){
+		$(this).myfunction();
+	});
+});
+
+$(window).resize(function(){
+	$('.vcenter-text').each(function(){
+		$(this).myfunction();
+	});
+	$('.vcenter-img').each(function(){
+		$(this).myfunction();
+	});
+});
+
+</script>
 
 </html>
