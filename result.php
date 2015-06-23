@@ -413,8 +413,23 @@
 
 			<div class="col-md-5">
 				<div class="row from-to-sidebar">
-					<div class="col-xs-12">
-						<p style="color:white;">Content</p>
+					<div class="col-xs-6">
+						<div class="form-group input-sm">
+							<input type="text" class="form-control input-sm" placeholder="From">
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="form-group input-sm">
+							<input type="text" class="form-control input-sm" placeholder="To">
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="form-group input-sm">
+							<input type="text" class="form-control input-sm" placeholder="ASAP">
+						</div>						
+					</div>
+					<div class="col-xs-6" style="padding:4px;">
+						<button type="submit" class="btn btn-default btn-sm btn-block">Let's Go</button>
 					</div>
 				</div><!-- From To Side Selector -->
 				<div class="img-custom">
