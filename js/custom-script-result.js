@@ -40,3 +40,13 @@ $(window).resize(function(){
 	});
 });
 
+$('#more-filter').click(function(){
+	var hidden = $('.hidden');
+    if (hidden.hasClass('visible')){
+        hidden.animate({"left":"-1000px"}, "slow").removeClass('visible');
+        hidden.addClass('hidden');
+    } else {
+    	hidden.removeClass('hidden');
+        hidden.animate({"left":"0px"}, "slow").addClass('visible');
+    }
+});

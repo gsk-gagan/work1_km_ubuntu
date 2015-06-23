@@ -434,7 +434,7 @@
 				</div><!-- From To Side Selector -->
 				
 
-				<div class="row car-type-sidebar">
+				<div class="row cab-type-sidebar">
 					<div class="row">
 						<div class="col-xs-12">
 							<h3 class="margin-less-text-cab">Cab Type</h3>
@@ -483,7 +483,18 @@
 								</div>
 							</div>
 						</div>
+
 					</div> <!-- Car Type-->
+
+					<div class="row"  style="position:relative; top:-7px;">
+						<div class="col-xs-12" style="text-align:right;">
+							<a id="more-filter" href="#" class="margin-less-text">+ More Filter Options</a>
+						</div>
+					</div>
+					
+					<div class="col-xs-12">
+						<div class="hidden">Here I am !</div>
+					</div>
 				</div><!-- Car Type Sidebar -->
 
 				<div class="img-custom">

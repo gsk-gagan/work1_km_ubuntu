@@ -105,7 +105,7 @@ img {
     padding-right: 4px;
 }
 
-.car-type-sidebar{
+.cab-type-sidebar{
     position: fixed;
     width: 42%;
     top: 190px;
@@ -115,7 +115,7 @@ img {
     box-shadow: -3px 3px 3px rgba(4,4,4,.4);
 
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
 }
