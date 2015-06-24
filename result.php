@@ -26,7 +26,7 @@
 	require 'includes/nav-bar.php';
 ?>
 
-<div style="padding-top:90px; padding-bottom:10px;"><!-- Local Styling -->
+<div id="container-parent"><!-- Local Styling -->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-1">
@@ -37,7 +37,7 @@
 				</div>
 			</div><!-- col-md-1 -->
 
-			<div class="col-md-6" style="padding-right:40px;padding-left:5px;" id="result-parent">
+			<div class="col-md-6" style="padding-right:60px;padding-left:0px;" id="result-parent">
 				<div class="row">
 					<ul class="nav nav-tabs nav-justified" role="tablist" id="option-tab">
 						<li role="presentation" class="active"><a href="#cheap-tab" role="tab" data-toggle="tab"><h4>Cheapest</h4></a></li>
@@ -863,7 +863,7 @@
 						</div>
 					</div><!-- Car Type Sidebar -->
 
-					<div class="row" id="trip-info">
+					<div class="row hider" id="trip-info">
 						<div class="col-xs-5"><h4 class="margin-less-text trip-info-text">Distance</h4></div>
 						<div class="col-xs-3"><h4 class="margin-less-text trip-info-text">20.4</h4></div>
 						<div class="col-xs-3"><img class="img-responsive trip-info-img" src="img/logo_m.png" alt=""></div>
