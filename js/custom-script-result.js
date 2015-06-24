@@ -61,3 +61,24 @@ $(window).resize(function(){
 	})
 })();
 
+/*Fixed Cheapest-Quickest-Best Rated*/
+(function(){
+	var lastScroll = 0;
+
+	$(document).on('scroll',function(){
+		var currentScroll = $(this).scrollTop();
+
+		$('#option-tab').css("margin-top",currentScroll);
+		$('#content-tab').css("margin-top",-1*currentScroll);
+		if(currentScroll > lastScroll) 
+		{
+
+		}	
+		else
+		{
+			
+		}
+
+		lastScroll = currentScroll;
+	})
+})();

@@ -17,7 +17,7 @@
     border-top: 1px solid #ddd;
     border-radius: 5px 5px 0px 0px;
     background-color: #FFFFFF;
-    box-shadow: 3px 3px 3px rgba(4,4,4,0.4);
+    /*box-shadow: 3px 3px 3px rgba(4,4,4,0.4);*/
 }
 
 .nav-tabs > li.active > a,
@@ -151,12 +151,9 @@ img {
 }
 
 #option-tab {
-    margin-top: 0px;
     z-index: 2;
-    
 }
 
 #content-tab {
-    margin-top: -100px;
     z-index: 1;
 }

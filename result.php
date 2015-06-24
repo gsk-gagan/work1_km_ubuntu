@@ -33,7 +33,7 @@
 					
 			</div><!-- col-md-1 -->
 
-			<div class="col-md-6">
+			<div class="col-md-6" style="padding-right:40px;padding-left:5px;" id="result-parent">
 				<div class="row" >
 					<ul class="nav nav-tabs nav-justified" role="tablist" id="option-tab">
 						<li role="presentation" class="active"><a href="#cheap-tab" role="tab" data-toggle="tab"><h4>Cheapest</h4></a></li>
@@ -43,7 +43,7 @@
 				</div>
 				
 
-				<div class="row" >
+				<div class="row" style="overflow:hidden;">
 					<div class="tab-content" id="content-tab">
 						<div class="tab-pane fade active in" id="cheap-tab" style="height:100%;"><!-- Local Styling --> <!-- To change height dynamically -->
 							
