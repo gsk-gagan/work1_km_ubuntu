@@ -60,3 +60,4 @@ $(window).resize(function(){
 		lastScroll = currentScroll;
 	})
 })();
+

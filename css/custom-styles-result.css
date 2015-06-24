@@ -150,3 +150,13 @@ img {
     transition: 0.5s;
 }
 
+#option-tab {
+    margin-top: 0px;
+    z-index: 2;
+    
+}
+
+#content-tab {
+    margin-top: -100px;
+    z-index: 1;
+}
