@@ -82,3 +82,41 @@ $(window).resize(function(){
 		lastScroll = currentScroll;
 	})
 })();
+
+/*Content hider - To hide a given content on screen resize below 992px, add the class hider*/
+(function(){
+
+	var wwidth = $(document).width();
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('.hider').each(function(){
+				$(this).addClass('hidden');
+			});
+		}	
+		else
+		{
+			$('.hider').each(function(){
+				$(this).removeClass('hidden');
+			});
+		}	
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('.hider').each(function(){
+				$(this).addClass('hidden');
+			});
+		}	
+		else
+		{
+			$('.hider').each(function(){
+				$(this).removeClass('hidden');
+			});
+		}	
+	});
+})();

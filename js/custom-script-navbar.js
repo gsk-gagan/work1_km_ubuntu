@@ -12,18 +12,18 @@
 		if($(this).width() != width){
 			width = $(this).width();
 		
-		if(width > 800)
-		{
-			effect = 'shrink-nav';
-			nav.addClass('wide-nav');
-			nav.removeClass('normal-nav');
-		}	
-		else
-		{
-			effect = 'hide-nav';
-			nav.removeClass('wide-nav');
-			nav.addClass('normal-nav');
-		}	
+			if(width > 800)
+			{
+				effect = 'shrink-nav';
+				nav.addClass('wide-nav');
+				nav.removeClass('normal-nav');
+			}	
+			else
+			{
+				effect = 'hide-nav';
+				nav.removeClass('wide-nav');
+				nav.addClass('normal-nav');
+			}	
 
 		}
 	});
