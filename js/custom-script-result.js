@@ -120,3 +120,16 @@ $(window).resize(function(){
 		}	
 	});
 })();
+
+/*Fixed Map*/
+(function(){
+	var lastScroll = 0;
+
+	$(document).on('scroll',function(){
+		var currentScroll = $(this).scrollTop();
+
+		$('#map-canvas').css("margin-top",currentScroll);
+		
+		lastScroll = currentScroll;
+	})
+})();

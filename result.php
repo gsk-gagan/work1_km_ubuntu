@@ -6,9 +6,9 @@
 	<title>Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Latest compiled and minified CSS -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!-- Local -->
-	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css"> -->
 	<!-- Optional theme - Transparent div not working -->
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
 	<!--[if lt IE 9]>
@@ -18,6 +18,20 @@
 	<link href="css/custom-styles-result.css" rel="stylesheet">
 	<link href="css/custom-styles-navbar.css" rel="stylesheet">
 	<link href="css/custom-styles-footer.css" rel="stylesheet">
+
+	<!-- Google Maps API -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	function initialize() {
+		var mapProp = {
+			center:new google.maps.LatLng(51.508742,-0.120850),
+			zoom:5,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+			var map=new google.maps.Map(document.getElementById("map-canvas"), mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 </head>
 
 <body>
@@ -32,7 +46,7 @@
 			<div class="col-md-1">
 				<div class="row hider">
 					<div class="col-xs-12">
-						<img class="img-responsive" src="img/logo_d_v.png" alt="" style="max-width:100%;max-height:500px;padding-top:20vh;">	
+						<img class="img-responsive" src="img/logo_d_v.png" alt="" style="padding-top:20vh;">	
 					</div>
 				</div>
 			</div><!-- col-md-1 -->
@@ -53,12 +67,12 @@
 							
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/ola.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/ola.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -104,12 +118,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/tfs.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/tfs.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -155,12 +169,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/easy.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/easy.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -206,12 +220,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/mega.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/mega.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -257,12 +271,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/uber.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/uber.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/limo.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/limo.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -308,12 +322,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/meru.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/meru.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/suv.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/suv.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -359,12 +373,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/taxi-pixi.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/taxi-pixi.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -410,12 +424,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/ola.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/ola.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -461,12 +475,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/tfs.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/tfs.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -512,12 +526,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/easy.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/easy.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/hatch.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -563,12 +577,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/mega.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/mega.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -614,12 +628,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/uber.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/uber.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/limo.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/limo.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -665,12 +679,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/meru.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/meru.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/suv.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/suv.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -716,12 +730,12 @@
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
-									<img src="img/cmp/taxi-pixi.jpg" alt="" class="img-responsive center-block">
+									<img src="img/cmp/taxi-pixi.jpg" alt="" class="img-responsive center-block img-restricted">
 								</div><!-- Logo -->
 								<div class="col-xs-4 col-lg-2 vcenter-img">
 									<div class="row">
 										<div class="col-xs-12">
-											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block">
+											<img src="img/cab-type/sedan.png" alt="" class="img-responsive center-block img-restricted">
 										</div>
 									</div>
 									<div class="row">
@@ -762,8 +776,7 @@
 									<a href="#" class="btn btn-primary btn-block">Book Now</a>
 								</div><!-- Book Now -->
 							</div>					
-
-							<hr>																
+														
 
 							
 
@@ -874,14 +887,14 @@
 					</div>
 
 				</div>
-				
-				<div class="img-custom">
-				</div>	
+					
 				<div class="white-gradient">
 				</div>
 			</div><!-- col-md-5 -->
 		</div>
 	</div>
+</div>
+<div id="map-canvas">
 </div>
 
 <?php
