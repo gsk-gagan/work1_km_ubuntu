@@ -412,91 +412,94 @@
 			</div><!-- col-md-6 -->
 
 			<div class="col-md-5">
-				<div class="row from-to-sidebar">
-					<div class="col-xs-6">
-						<div class="form-group input-sm">
-							<input type="text" class="form-control input-sm" placeholder="From">
+				<div id="right-sidebar" style="position:fixed; top:100px;">
+					<div class="row from-to-sidebar">
+						<div class="col-xs-6">
+							<div class="form-group input-sm">
+								<input type="text" class="form-control input-sm" placeholder="From">
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6">
-						<div class="form-group input-sm">
-							<input type="text" class="form-control input-sm" placeholder="To">
+						<div class="col-xs-6">
+							<div class="form-group input-sm">
+								<input type="text" class="form-control input-sm" placeholder="To">
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6">
-						<div class="form-group input-sm">
-							<input type="text" class="form-control input-sm" placeholder="ASAP">
-						</div>						
-					</div>
-					<div class="col-xs-6" style="padding:4px;">
-						<button type="submit" class="btn btn-default btn-sm btn-block">Let's Go</button>
-					</div>
-				</div><!-- From To Side Selector -->
-				
+						<div class="col-xs-6">
+							<div class="form-group input-sm">
+								<input type="text" class="form-control input-sm" placeholder="ASAP">
+							</div>						
+						</div>
+						<div class="col-xs-6" style="padding:4px;">
+							<button type="submit" class="btn btn-default btn-sm btn-block">Let's Go</button>
+						</div>
+					</div><!-- From To Side Selector -->
+					
 
-				<div class="row cab-type-sidebar">
-					<div class="row">
+					<div class="row cab-type-sidebar">
+						<div class="row">
+							<div class="col-xs-12">
+								<h3 class="margin-less-text-cab">Cab Type</h3>
+							</div>
+						</div>
+						
+
+						<div class="row cab-type-img" style="width:120%">
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/auto.png" alt=""></div>
+									<div class="col-xs-offset-4 col-xs-3">
+										<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/hatch.png" alt=""></div>
+									<div class="col-xs-offset-4 col-xs-3">
+										<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/sedan.png" alt=""></div>
+									<div class="col-xs-offset-4 col-xs-3">
+										<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/suv.png" alt=""></div>
+									<div class="col-xs-offset-4 col-xs-3">
+										<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/limo.png" alt=""></div>
+									<div class="col-xs-offset-4 col-xs-3">
+										<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+									</div>
+								</div>
+							</div>
+
+						</div> <!-- Car Type-->
+
+						<div class="row"  style="position:relative; top:-7px;">
+							<div class="col-xs-12" style="text-align:right;">
+								<a id="more-filter" href="#" class="margin-less-text">+ More Filter Options</a>
+							</div>
+						</div>
+						
 						<div class="col-xs-12">
-							<h3 class="margin-less-text-cab">Cab Type</h3>
+							<div class="hidden">Here I am !</div>
 						</div>
-					</div>
-					
+					</div><!-- Car Type Sidebar -->
 
-					<div class="row cab-type-img" style="width:120%">
-						<div class="col-xs-2">
-							<div class="row">
-								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/auto.png" alt=""></div>
-								<div class="col-xs-offset-4 col-xs-3">
-									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-2">
-							<div class="row">
-								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/hatch.png" alt=""></div>
-								<div class="col-xs-offset-4 col-xs-3">
-									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-2">
-							<div class="row">
-								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/sedan.png" alt=""></div>
-								<div class="col-xs-offset-4 col-xs-3">
-									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-2">
-							<div class="row">
-								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/suv.png" alt=""></div>
-								<div class="col-xs-offset-4 col-xs-3">
-									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-2">
-							<div class="row">
-								<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/limo.png" alt=""></div>
-								<div class="col-xs-offset-4 col-xs-3">
-									<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
-								</div>
-							</div>
-						</div>
-
-					</div> <!-- Car Type-->
-
-					<div class="row"  style="position:relative; top:-7px;">
-						<div class="col-xs-12" style="text-align:right;">
-							<a id="more-filter" href="#" class="margin-less-text">+ More Filter Options</a>
-						</div>
-					</div>
-					
-					<div class="col-xs-12">
-						<div class="hidden">Here I am !</div>
-					</div>
-				</div><!-- Car Type Sidebar -->
-
+				</div>
+				
 				<div class="img-custom">
 				</div>	
 				<div class="white-gradient">
