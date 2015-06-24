@@ -100,7 +100,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -151,7 +151,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -202,7 +202,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -253,7 +253,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -304,7 +304,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">	
+							<hr>	
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -355,7 +355,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">	
+							<hr>	
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -406,7 +406,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -457,7 +457,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -508,7 +508,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -559,7 +559,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -610,7 +610,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">
+							<hr>
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -661,7 +661,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">	
+							<hr>	
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -712,7 +712,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">	
+							<hr>	
 
 							<div class="row single-result">
 								<div class="col-xs-4 col-lg-2 vcenter-img">
@@ -763,7 +763,7 @@
 								</div><!-- Book Now -->
 							</div>					
 
-							<hr style="margin:5px;">																
+							<hr>																
 
 							
 
@@ -862,6 +862,16 @@
 							</div>
 						</div>
 					</div><!-- Car Type Sidebar -->
+
+					<div class="row" id="trip-info">
+						<div class="col-xs-5"><h4 class="margin-less-text trip-info-text">Distance</h4></div>
+						<div class="col-xs-3"><h4 class="margin-less-text trip-info-text">20.4</h4></div>
+						<div class="col-xs-3"><img class="img-responsive trip-info-img" src="img/logo_m.png" alt=""></div>
+						<div class="col-xs-offset-5 col-xs-3"><h4 class="margin-less-text trip-info-text">12.7</h4></div>
+						<div class="col-xs-3"><h4 class="margin-less-text trip-info-text" style="color:rgb(250,200,18);">miles</h4></div>
+						<div class="col-xs-5"><h4 class="margin-less-text trip-info-text">Time</h4></div>
+						<div class="col-xs-6"><h4 class="margin-less-text trip-info-text">46 min</h4></div>
+					</div>
 
 				</div>
 				
