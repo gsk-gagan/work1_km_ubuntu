@@ -877,7 +877,7 @@
 					</div><!-- Car Type Sidebar -->
 				</div>
 					
-				<div class="white-gradient">
+				<div id="white-gradient">
 				</div>
 				<div class="row hider" id="trip-info">
 					<div class="col-xs-5"><h4 class="margin-less-text trip-info-text">Distance</h4></div>

@@ -133,3 +133,38 @@ $(window).resize(function(){
 		lastScroll = currentScroll;
 	})
 })();
+
+/*Map Resize and Gradient hide*/
+(function(){
+	var wwidth = $(document).width();
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#map-canvas').css("width","100%");
+			$('#map-canvas').css("left",0);
+			$('#white-gradient').addClass('hidden');
+		}	
+		else
+		{
+			$('#map-canvas').css("width","50%");
+			$('#map-canvas').css("left","50%");
+			$('#white-gradient').removeClass('hidden');
+		}	
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#map-canvas').css("width","100%");
+			$('#map-canvas').css("left",0);
+		}	
+		else
+		{
+			$('#map-canvas').css("width","50%");
+			$('#map-canvas').css("left","50%");
+		}
+	});
+})();
