@@ -142,7 +142,6 @@
 #right-sidebar {
     position: fixed;
     top: 90px;
-    z-index: -3;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -195,7 +194,8 @@ hr {
     background-color: rgba(52,52,52,.95);
     box-shadow: -3px 3px 3px rgba(4,4,4,.4);
     color: white;
-
+    
+    z-index: -1;
 }
 
 .trip-info-img {
