@@ -40,13 +40,23 @@ $(window).resize(function(){
 	});
 });
 
-$('#more-filter').click(function(){
-	var hidden = $('.hidden');
-    if (hidden.hasClass('visible')){
-        hidden.animate({"left":"-1000px"}, "slow").removeClass('visible');
-        hidden.addClass('hidden');
-    } else {
-    	hidden.removeClass('hidden');
-        hidden.animate({"left":"0px"}, "slow").addClass('visible');
-    }
-});
+
+/*Auto Scrolling and fix side bar*/
+(function(){
+	var lastScroll = 0;
+
+	$(document).on('scroll',function(){
+		var currentScroll = $(this).scrollTop();
+
+		if(currentScroll > lastScroll) 
+		{
+			$('#right-sidebar').css("top",65);
+		}	
+		else
+		{
+			$('#right-sidebar').css("top",90);
+		}
+
+		lastScroll = currentScroll;
+	})
+})();

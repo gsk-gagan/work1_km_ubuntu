@@ -139,3 +139,14 @@ img {
     position: relative;
     top: -10px;
 }
+
+#right-sidebar {
+    position: fixed;
+    top: 90px;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+

@@ -412,7 +412,7 @@
 			</div><!-- col-md-6 -->
 
 			<div class="col-md-5">
-				<div id="right-sidebar" style="position:fixed; top:100px;">
+				<div id="right-sidebar">
 					<div class="row from-to-sidebar">
 						<div class="col-xs-6">
 							<div class="form-group input-sm">
