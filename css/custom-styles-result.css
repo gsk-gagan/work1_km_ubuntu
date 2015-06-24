@@ -3,11 +3,11 @@
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
     padding: 10px;
 
     background-color: #FFFFFF;
-    box-shadow: 3px 3px 3px rgba(4,4,4,.4);
+    /*box-shadow: 3px 3px 3px rgba(4,4,4,.4);*/
 }
 
 .nav-tabs {
@@ -17,7 +17,7 @@
     border-top: 1px solid #ddd;
     border-radius: 5px 5px 0px 0px;
     background-color: #FFFFFF;
-    /*box-shadow: 3px 3px 3px rgba(4,4,4,0.4);*/
+    box-shadow: 3px 3px 3px rgba(4,4,4,0.4);
 }
 
 .nav-tabs > li.active > a,
@@ -152,8 +152,20 @@ img {
 
 #option-tab {
     z-index: 2;
+
 }
 
 #content-tab {
     z-index: 1;
+}
+
+#result-parent {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#shadow-content-box {
+    box-shadow: 3px 3px 3px rgba(4,4,4,.4);
 }

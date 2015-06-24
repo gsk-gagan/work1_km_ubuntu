@@ -72,11 +72,11 @@ $(window).resize(function(){
 		$('#content-tab').css("margin-top",-1*currentScroll);
 		if(currentScroll > lastScroll) 
 		{
-
+			$('#result-parent').css("margin-top",-25);
 		}	
 		else
 		{
-			
+			$('#result-parent').css("margin-top",0);
 		}
 
 		lastScroll = currentScroll;
