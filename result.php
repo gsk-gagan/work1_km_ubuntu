@@ -40,7 +40,7 @@
 	require 'includes/nav-bar.php';
 ?>
 
-<div id="container-parent"><!-- Local Styling -->
+<div id="container-parent">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-1">

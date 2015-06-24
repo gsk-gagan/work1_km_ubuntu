@@ -160,11 +160,42 @@ $(window).resize(function(){
 		{
 			$('#map-canvas').css("width","100%");
 			$('#map-canvas').css("left",0);
+			$('#white-gradient').addClass('hidden');
 		}	
 		else
 		{
 			$('#map-canvas').css("width","50%");
 			$('#map-canvas').css("left","50%");
+			$('#white-gradient').removeClass('hidden');
+		}
+	});
+})();
+
+/*800px shift up break point*/
+(function(){
+	var wwidth = $(document).width();
+	var hidePoint = 800;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#container-parent').css("padding-top","50px");
+		}	
+		else
+		{
+			$('#container-parent').css("padding-top","90px");
+		}	
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#container-parent').css("padding-top","50px");
+		}	
+		else
+		{
+			$('#container-parent').css("padding-top","90px");
 		}
 	});
 })();
