@@ -69,7 +69,7 @@ $(window).resize(function(){
 		var currentScroll = $(this).scrollTop();
 
 		$('#option-tab').css("margin-top",currentScroll);
-		$('#content-tab').css("margin-top",-1*currentScroll);
+		$('#content-tab').css("margin-top",-0.5*currentScroll);
 		if(currentScroll > lastScroll) 
 		{
 			$('#result-parent').css("margin-top",-25);
