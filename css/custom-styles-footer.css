@@ -3,6 +3,8 @@ footer.ftr {
 	color: white;
 	text-align: center;
 	padding-bottom: 15px;
+	position: relative;
+	z-index: 100;
 }
 
 footer.ftr a {

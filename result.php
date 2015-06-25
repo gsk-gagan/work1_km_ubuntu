@@ -879,7 +879,7 @@
 					
 				<div id="white-gradient">
 				</div>
-				<div class="row hider" id="trip-info">
+				<div class="row" id="trip-info">
 					<div class="col-xs-5"><h4 class="margin-less-text trip-info-text">Distance</h4></div>
 					<div class="col-xs-3"><h4 class="margin-less-text trip-info-text">20.4</h4></div>
 					<div class="col-xs-3"><img class="img-responsive trip-info-img" src="img/logo_m.png" alt=""></div>
@@ -892,12 +892,119 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- Mobile View -->
+
+<!-- Mobile View Tabs -->
+<div id="mobile-tab-parent">
+	<div class="row shower mobile-tab-group" id="mobile-fromto-tab"><img src="img/from-to-mobile-tab.png" alt=""></div>
+	<div class="row shower mobile-tab-group" id="mobile-filter-tab"><img src="img/filter-mobile-tab.png" alt=""></div>
+	<div class="row shower mobile-tab-group" id="mobile-map-tab"><img src="img/map-mobile-tab.png" alt=""></div>
+</div>
+
+<!-- Mobile View From To -->
+<div class="row shower" id="from-to-mobile">
+	<div class="col-xs-6">
+		<div class="form-group input-sm">
+			<input type="text" class="form-control input-sm" placeholder="From">
+		</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="form-group input-sm">
+			<input type="text" class="form-control input-sm" placeholder="To">
+		</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="form-group input-sm">
+			<input type="text" class="form-control input-sm" placeholder="ASAP">
+		</div>						
+	</div>
+	<div class="col-xs-6" style="padding:4px;">
+		<button type="submit" class="btn btn-default btn-sm btn-block">Let's Go</button>
+	</div>
+</div><!-- From To Mobile Selector -->
+
+
+<!-- Mobile Filter -->
+<div class="row shower" id="cab-type-mobile">	
+
+	<div class="row cab-type-img">
+		<div class="col-xs-2">
+			<div class="row">
+				<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/auto.png" alt=""></div>
+				<div class="col-xs-offset-4 col-xs-3">
+					<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row">
+				<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/hatch.png" alt=""></div>
+				<div class="col-xs-offset-4 col-xs-3">
+					<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row">
+				<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/sedan.png" alt=""></div>
+				<div class="col-xs-offset-4 col-xs-3">
+					<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row">
+				<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/suv.png" alt=""></div>
+				<div class="col-xs-offset-4 col-xs-3">
+					<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row">
+				<div class="col-xs-12"><img class="img-responsive" src="img/cab-type/limo.png" alt=""></div>
+				<div class="col-xs-offset-4 col-xs-3">
+					<input class="cab-type-check" type="checkbox" style="margin-top:0px;">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="row" style="margin-right:0px;">
+				<div class="col-xs-12" style="padding-right:0px;"><img class="img-responsive" src="img/more-filters.png" alt=""></div>
+			</div>
+		</div>
+
+	</div> <!-- Car Type-->
+
+	<div class="row"  style="position:relative; top:-7px;">
+		
+	</div>
+</div><!-- Car Type Mobile -->
+</div>
+
+<!-- Cross -->
+<img src="img/cross.png" class="hidden" alt="" id="cross-fromto">
+<img src="img/cross.png" class="hidden" alt="" id="cross-filter">
+<img src="img/cross.png" class="hidden" alt="" id="cross-map">
+
+
+
+
+
+
+
+<!-- Map Canvas -->
 <div id="map-canvas">
 </div>
 
-<?php
-	require 'includes/footer.php';
-?>
+<!-- Footer -->
+<div id="scroll-footer">
+	<?php
+		require 'includes/footer.php';
+	?>	
+</div>
 	
 </body>
 

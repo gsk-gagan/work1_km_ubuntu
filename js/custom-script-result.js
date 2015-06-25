@@ -199,3 +199,192 @@ $(window).resize(function(){
 		}
 	});
 })();
+
+/*To hide mobile-tabs initially and show later*/
+(function(){
+
+	var wwidth = $(document).width();
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('.shower').each(function(){
+				$(this).removeClass('hidden');
+			});
+		}	
+		else
+		{
+			$('.shower').each(function(){
+				$(this).addClass('hidden');
+			});
+		}	
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('.shower').each(function(){
+				$(this).removeClass('hidden');
+			});
+		}	
+		else
+		{
+			$('.shower').each(function(){
+				$(this).addClass('hidden');
+			});
+		}	
+	});
+})();
+
+/*Mobile-tabs-show and hide*/
+/*Map-Mobile*/
+(function(){
+	var hideMap = true;
+
+	$('#cross-map').click(function(){
+		$('#cross-map').addClass('hidden');
+    	$('#map-canvas').css("z-index",-5);
+    	$('#mobile-map-tab').css("z-index",1);
+    	$('#trip-info').css("z-index",-1);
+    	hideMap = true;
+	});
+
+	$("#mobile-map-tab").click(function(){
+		if(hideMap)
+	    {
+	    	$('#cross-map').removeClass('hidden');
+	    	$('#map-canvas').css("z-index",12);
+	    	$('#mobile-map-tab').css("z-index",13);
+	    	$('#trip-info').css("z-index",13);
+	    	$('#trip-info').css("right",70);
+	    	hideMap = false;
+	    }
+	    else
+	    {
+	    	$('#cross-map').addClass('hidden');
+	    	$('#map-canvas').css("z-index",-5);
+	    	$('#mobile-map-tab').css("z-index",1);
+	    	$('#trip-info').css("z-index",-1);
+	    	hideMap = true;
+	    }
+	});	
+
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#trip-info').css("right",70);
+		}
+		else
+		{	
+			$('#map-canvas').css("z-index",-5);
+	    	$('#mobile-map-tab').css("z-index",1);
+	    	$('#trip-info').css("right",30);
+	    	hideMap = true;
+		}
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#trip-info').css("right",70);
+		}	
+		else
+		{
+			$('#trip-info').css("right",30);
+		}	
+	});
+})();
+
+/*From-to-Mobile*/
+(function(){
+	var hideFromTo = true;
+
+	$('#cross-fromto').click(function(){
+		$('#cross-fromto').addClass('hidden');
+    	$('#from-to-mobile').css("z-index",-5);
+    	$('#mobile-fromto-tab').css("z-index",1);
+    	hideFromTo = true;
+	});
+
+
+	$("#mobile-fromto-tab").click(function(){
+		if(hideFromTo)
+	    {
+	    	$('#cross-fromto').removeClass('hidden');
+	    	$('#from-to-mobile').css("z-index",10);
+	    	$('#mobile-fromto-tab').css("z-index",9);
+	    	hideFromTo = false;
+	    }
+	    else
+	    {
+	    	$('#cross-fromto').addClass('hidden');
+	    	$('#from-to-mobile').css("z-index",-5);
+	    	$('#mobile-fromto-tab').css("z-index",1);
+	    	hideFromTo = true;
+	    }
+	});	
+
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+		}
+		else
+		{
+			$('#cross-fromto').addClass('hidden');
+			$('#from-to-mobile').css("z-index",-5);
+	    	$('#mobile-fromto-tab').css("z-index",1);
+	    	hideFromTo = true;
+		}
+	});
+})();
+
+/*Cab-Type-Mobile*/
+(function(){
+	var hideFromTo = true;
+
+	$('#cross-filter').click(function(){
+		$('#cross-filter').addClass('hidden');
+    	$('#cab-type-mobile').css("z-index",-5);
+    	$('#mobile-filter-tab').css("z-index",1);
+    	hideFromTo = true;
+	});
+
+	$("#mobile-filter-tab").click(function(){
+		if(hideFromTo)
+	    {
+	    	$('#cross-filter').removeClass('hidden');
+	    	$('#cab-type-mobile').css("z-index",10);
+	    	$('#mobile-filter-tab').css("z-index",9);
+	    	hideFromTo = false;
+	    }
+	    else
+	    {
+	    	$('#cross-filter').addClass('hidden');
+	    	$('#cab-type-mobile').css("z-index",-5);
+	    	$('#mobile-filter-tab').css("z-index",1);
+	    	hideFromTo = true;
+	    }
+	});	
+
+	var hidePoint = 975;
+	$(window).resize(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+		}
+		else
+		{
+			$('#cross-filter').addClass('hidden');
+			$('#cab-type-mobile').css("z-index",-5);
+	    	$('#mobile-filter-tab').css("z-index",1);
+	    	hideFromTo = true;
+		}
+	});
+})();

@@ -149,12 +149,14 @@
 }
 
 #option-tab {
-    z-index: 2;
+    position: relative;
+    z-index: 5;
 
 }
 
 #content-tab {
-    z-index: 1;
+    position: relative;
+    z-index: 5;
 }
 
 #result-parent {
@@ -165,6 +167,8 @@
 }
 
 #shadow-content-box {
+    position: relative;
+    z-index: 5;
     box-shadow: 3px 3px 3px rgba(4,4,4,.4);
 }
 
@@ -185,7 +189,7 @@ hr {
     position: fixed;
     height: 85px;
     width: 200px;
-    bottom: 20px;
+    bottom: 15px;
     right: 30px;
     padding-top: 15px;
     padding-left: 0px;
@@ -214,4 +218,99 @@ hr {
 #container-parent {
     padding-top:90px; 
     padding-bottom:10px;
+}
+
+#mobile-map-tab {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1;
+}
+
+#mobile-filter-tab {
+    position: fixed;
+    bottom: 105px;
+    right: 20px;
+    z-index: 1;
+}
+
+#mobile-fromto-tab {
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    z-index: 1;
+}
+
+
+/*From to Mobile View*/
+#from-to-mobile {
+    position: fixed;
+    z-index: -1;
+    bottom: 200px;
+    right: 60px;
+
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(52,52,52);
+    box-shadow: -3px 3px 3px rgba(4,4,4,.4);
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+
+}
+
+#from-to-mobile > div {
+    padding: 0px;
+}
+
+#from-to-mobile > div > .form-group {
+    margin-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*Cab Type Mobile View*/
+#cab-type-mobile {
+    position: fixed;
+    z-index: -1;
+    bottom: 110px;
+    right: 60px;
+
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(252,252,252);
+    box-shadow: -3px 3px 3px rgba(4,4,4,.4);
+    border-top: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    
+    
+    max-width: 622px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-left: 10px;
+}
+
+/*Cross Position*/
+#cross-fromto {
+    position: fixed;
+    z-index: 11;
+    bottom: 195px; 
+    right: 0px;   
+}
+
+#cross-filter {
+    position: fixed;
+    z-index: 11;
+    bottom: 100px; 
+    right: 0px;
+}
+
+#cross-map {
+    position: fixed;
+    z-index: 15;
+    bottom: 5px; 
+    right: 0px;
 }
