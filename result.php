@@ -891,7 +891,7 @@
 			</div><!-- col-md-5 -->
 		</div>
 	</div>
-</div>
+</div><!-- container-parent -->
 
 
 <!-- Mobile View -->
@@ -977,22 +977,12 @@
 		</div>
 
 	</div> <!-- Car Type-->
-
-	<div class="row"  style="position:relative; top:-7px;">
-		
-	</div>
 </div><!-- Car Type Mobile -->
-</div>
 
 <!-- Cross -->
 <img src="img/cross.png" class="hidden" alt="" id="cross-fromto">
 <img src="img/cross.png" class="hidden" alt="" id="cross-filter">
 <img src="img/cross.png" class="hidden" alt="" id="cross-map">
-
-
-
-
-
 
 
 <!-- Map Canvas -->
@@ -1009,13 +999,13 @@
 </body>
 
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Local -->
-<script src="bootstrap/jquery.min.js"></script>
+<!-- <script src="bootstrap/jquery.min.js"></script> -->
 <!-- Latest compiled and minified JavaScript -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <!-- Local -->
-<script src="bootstrap/bootstrap.min.js"></script>
+<!-- <script src="bootstrap/bootstrap.min.js"></script> -->
 <script src="js/custom-script.js"></script>
 <script src="js/custom-script-navbar.js"></script>
 <script src="js/custom-script-result.js"></script>

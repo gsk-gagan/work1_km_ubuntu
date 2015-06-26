@@ -4,6 +4,7 @@ footer.ftr {
 	text-align: center;
 	padding-bottom: 15px;
 	position: relative;
+	bottom: 0;
 	z-index: 100;
 }
 

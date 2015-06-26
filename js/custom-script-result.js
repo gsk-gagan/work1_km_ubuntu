@@ -62,26 +62,26 @@ $(window).resize(function(){
 })();
 
 /*Fixed Cheapest-Quickest-Best Rated*/
-(function(){
-	var lastScroll = 0;
+// (function(){
+// 	var lastScroll = 0;
 
-	$(document).on('scroll',function(){
-		var currentScroll = $(this).scrollTop();
+// 	$(document).on('scroll',function(){
+// 		var currentScroll = $(this).scrollTop();
 
-		$('#option-tab').css("margin-top",currentScroll);
-		$('#content-tab').css("margin-top",-0.5*currentScroll);
-		if(currentScroll > lastScroll) 
-		{
-			$('#result-parent').css("margin-top",-25);
-		}	
-		else
-		{
-			$('#result-parent').css("margin-top",0);
-		}
+// 		$('#option-tab').css("margin-top",currentScroll);
+// 		$('#content-tab').css("margin-top",-0.5*currentScroll);
+// 		if(currentScroll > lastScroll) 
+// 		{
+// 			$('#result-parent').css("margin-top",-25);
+// 		}	
+// 		else
+// 		{
+// 			$('#result-parent').css("margin-top",0);
+// 		}
 
-		lastScroll = currentScroll;
-	})
-})();
+// 		lastScroll = currentScroll;
+// 	})
+// })();
 
 /*Content hider - To hide a given content on screen resize below 992px, add the class hider*/
 (function(){
@@ -248,6 +248,7 @@ $(window).resize(function(){
     	$('#map-canvas').css("z-index",-5);
     	$('#mobile-map-tab').css("z-index",1);
     	$('#trip-info').css("z-index",-1);
+    	$('#trip-info').addClass('hidden');
     	hideMap = true;
 	});
 
@@ -259,6 +260,7 @@ $(window).resize(function(){
 	    	$('#mobile-map-tab').css("z-index",13);
 	    	$('#trip-info').css("z-index",13);
 	    	$('#trip-info').css("right",70);
+	    	$('#trip-info').removeClass('hidden');
 	    	hideMap = false;
 	    }
 	    else
@@ -267,6 +269,7 @@ $(window).resize(function(){
 	    	$('#map-canvas').css("z-index",-5);
 	    	$('#mobile-map-tab').css("z-index",1);
 	    	$('#trip-info').css("z-index",-1);
+	    	$('#trip-info').addClass('hidden');
 	    	hideMap = true;
 	    }
 	});	
@@ -277,12 +280,15 @@ $(window).resize(function(){
 		if(wwidth < hidePoint)
 		{
 			$('#trip-info').css("right",70);
+			$('#trip-info').addClass('hidden');
 		}
 		else
 		{	
+			$('#cross-map').addClass('hidden');
 			$('#map-canvas').css("z-index",-5);
 	    	$('#mobile-map-tab').css("z-index",1);
 	    	$('#trip-info').css("right",30);
+	    	$('#trip-info').removeClass('hidden');
 	    	hideMap = true;
 		}
 	});
@@ -292,10 +298,13 @@ $(window).resize(function(){
 		if(wwidth < hidePoint)
 		{
 			$('#trip-info').css("right",70);
+			$('#trip-info').addClass('hidden');
 		}	
 		else
 		{
+			$('#cross-map').addClass('hidden');
 			$('#trip-info').css("right",30);
+			$('#trip-info').removeClass('hidden');
 		}	
 	});
 })();
@@ -307,6 +316,7 @@ $(window).resize(function(){
 	$('#cross-fromto').click(function(){
 		$('#cross-fromto').addClass('hidden');
     	$('#from-to-mobile').css("z-index",-5);
+    	$('#from-to-mobile').addClass('hidden');
     	$('#mobile-fromto-tab').css("z-index",1);
     	hideFromTo = true;
 	});
@@ -316,6 +326,7 @@ $(window).resize(function(){
 		if(hideFromTo)
 	    {
 	    	$('#cross-fromto').removeClass('hidden');
+	    	$('#from-to-mobile').removeClass('hidden');
 	    	$('#from-to-mobile').css("z-index",10);
 	    	$('#mobile-fromto-tab').css("z-index",9);
 	    	hideFromTo = false;
@@ -324,6 +335,7 @@ $(window).resize(function(){
 	    {
 	    	$('#cross-fromto').addClass('hidden');
 	    	$('#from-to-mobile').css("z-index",-5);
+	    	$('#from-to-mobile').addClass('hidden');
 	    	$('#mobile-fromto-tab').css("z-index",1);
 	    	hideFromTo = true;
 	    }
@@ -334,14 +346,33 @@ $(window).resize(function(){
 		wwidth = $(document).width();
 		if(wwidth < hidePoint)
 		{
+			$('#from-to-mobile').addClass('hidden');
+			hideFromTo = true;
 		}
 		else
 		{
 			$('#cross-fromto').addClass('hidden');
 			$('#from-to-mobile').css("z-index",-5);
+			$('#from-to-mobile').addClass('hidden');
 	    	$('#mobile-fromto-tab').css("z-index",1);
 	    	hideFromTo = true;
 		}
+	});
+
+	$(document).ready(function(){
+		wwidth = $(document).width();
+		if(wwidth < hidePoint)
+		{
+			$('#trip-info').css("right",70);
+			$('#from-to-mobile').addClass('hidden');
+			hideFromTo = true;
+		}	
+		else
+		{
+			$('#from-to-mobile').addClass('hidden');
+			$('#trip-info').css("right",30);
+			hideFromTo = true;
+		}	
 	});
 })();
 
@@ -352,6 +383,7 @@ $(window).resize(function(){
 	$('#cross-filter').click(function(){
 		$('#cross-filter').addClass('hidden');
     	$('#cab-type-mobile').css("z-index",-5);
+    	$('#cab-type-mobile').addClass('hidden');
     	$('#mobile-filter-tab').css("z-index",1);
     	hideFromTo = true;
 	});
@@ -360,12 +392,14 @@ $(window).resize(function(){
 		if(hideFromTo)
 	    {
 	    	$('#cross-filter').removeClass('hidden');
+	    	$('#cab-type-mobile').removeClass('hidden');
 	    	$('#cab-type-mobile').css("z-index",10);
 	    	$('#mobile-filter-tab').css("z-index",9);
 	    	hideFromTo = false;
 	    }
 	    else
 	    {
+	    	$('#cab-type-mobile').addClass('hidden');
 	    	$('#cross-filter').addClass('hidden');
 	    	$('#cab-type-mobile').css("z-index",-5);
 	    	$('#mobile-filter-tab').css("z-index",1);
@@ -378,6 +412,7 @@ $(window).resize(function(){
 		wwidth = $(document).width();
 		if(wwidth < hidePoint)
 		{
+			$('#cab-type-mobile').addClass('hidden');
 		}
 		else
 		{
