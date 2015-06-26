@@ -221,30 +221,30 @@ hr {
 }
 
 #mobile-map-tab {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     right: 20px;
     z-index: 1;
 }
 
 #mobile-filter-tab {
-    position: absolute;
+    position: fixed;
     bottom: 105px;
     right: 20px;
     z-index: 1;
 }
 
 #mobile-fromto-tab {
-    position: absolute;
+    position: fixed;
     bottom: 200px;
     right: 20px;
     z-index: 1;
 }
 
 
-/*From to Mobile View*/
-#from-to-mobile {
-    position: absolute;
+/*From to Mobile View - Modal view so hiding*/
+/*#from-to-mobile {
+    position: fixed;
     z-index: -1;
     bottom: 200px;
     right: 60px;
@@ -269,11 +269,11 @@ hr {
     margin-bottom: 10px;
     padding-left: 4px;
     padding-right: 4px;
-}
+}*/
 
 /*Cab Type Mobile View*/
 #cab-type-mobile {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     bottom: 110px;
     right: 60px;
@@ -295,21 +295,21 @@ hr {
 
 /*Cross Position*/
 #cross-fromto {
-    position: absolute;
+    position: fixed;
     z-index: 11;
     bottom: 195px; 
     right: 0px;   
 }
 
 #cross-filter {
-    position: absolute;
+    position: fixed;
     z-index: 11;
     bottom: 100px; 
     right: 0px;
 }
 
 #cross-map {
-    position: absolute;
+    position: fixed;
     z-index: 15;
     bottom: 5px; 
     right: 0px;

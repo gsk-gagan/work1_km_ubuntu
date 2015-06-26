@@ -309,72 +309,72 @@ $(window).resize(function(){
 	});
 })();
 
-/*From-to-Mobile*/
-(function(){
-	var hideFromTo = true;
+/*From-to-Mobile - to be done using modal so hiding*/
+// (function(){
+// 	var hideFromTo = true;
 
-	$('#cross-fromto').click(function(){
-		$('#cross-fromto').addClass('hidden');
-    	$('#from-to-mobile').css("z-index",-5);
-    	$('#from-to-mobile').addClass('hidden');
-    	$('#mobile-fromto-tab').css("z-index",1);
-    	hideFromTo = true;
-	});
+// 	$('#cross-fromto').click(function(){
+// 		$('#cross-fromto').addClass('hidden');
+//     	$('#from-to-mobile').css("z-index",-5);
+//     	$('#from-to-mobile').addClass('hidden');
+//     	$('#mobile-fromto-tab').css("z-index",1);
+//     	hideFromTo = true;
+// 	});
 
 
-	$("#mobile-fromto-tab").click(function(){
-		if(hideFromTo)
-	    {
-	    	$('#cross-fromto').removeClass('hidden');
-	    	$('#from-to-mobile').removeClass('hidden');
-	    	$('#from-to-mobile').css("z-index",10);
-	    	$('#mobile-fromto-tab').css("z-index",9);
-	    	hideFromTo = false;
-	    }
-	    else
-	    {
-	    	$('#cross-fromto').addClass('hidden');
-	    	$('#from-to-mobile').css("z-index",-5);
-	    	$('#from-to-mobile').addClass('hidden');
-	    	$('#mobile-fromto-tab').css("z-index",1);
-	    	hideFromTo = true;
-	    }
-	});	
+// 	$("#mobile-fromto-tab").click(function(){
+// 		if(hideFromTo)
+// 	    {
+// 	    	$('#cross-fromto').removeClass('hidden');
+// 	    	$('#from-to-mobile').removeClass('hidden');
+// 	    	$('#from-to-mobile').css("z-index",10);
+// 	    	$('#mobile-fromto-tab').css("z-index",9);
+// 	    	hideFromTo = false;
+// 	    }
+// 	    else
+// 	    {
+// 	    	$('#cross-fromto').addClass('hidden');
+// 	    	$('#from-to-mobile').css("z-index",-5);
+// 	    	$('#from-to-mobile').addClass('hidden');
+// 	    	$('#mobile-fromto-tab').css("z-index",1);
+// 	    	hideFromTo = true;
+// 	    }
+// 	});	
 
-	var hidePoint = 975;
-	$(window).resize(function(){
-		wwidth = $(document).width();
-		if(wwidth < hidePoint)
-		{
-			$('#from-to-mobile').addClass('hidden');
-			hideFromTo = true;
-		}
-		else
-		{
-			$('#cross-fromto').addClass('hidden');
-			$('#from-to-mobile').css("z-index",-5);
-			$('#from-to-mobile').addClass('hidden');
-	    	$('#mobile-fromto-tab').css("z-index",1);
-	    	hideFromTo = true;
-		}
-	});
+// 	var hidePoint = 975;
+// 	$(window).resize(function(){
+// 		wwidth = $(document).width();
+// 		if(wwidth < hidePoint)
+// 		{
+// 			$('#from-to-mobile').addClass('hidden');
+// 			hideFromTo = true;
+// 		}
+// 		else
+// 		{
+// 			$('#cross-fromto').addClass('hidden');
+// 			$('#from-to-mobile').css("z-index",-5);
+// 			$('#from-to-mobile').addClass('hidden');
+// 	    	$('#mobile-fromto-tab').css("z-index",1);
+// 	    	hideFromTo = true;
+// 		}
+// 	});
 
-	$(document).ready(function(){
-		wwidth = $(document).width();
-		if(wwidth < hidePoint)
-		{
-			$('#trip-info').css("right",70);
-			$('#from-to-mobile').addClass('hidden');
-			hideFromTo = true;
-		}	
-		else
-		{
-			$('#from-to-mobile').addClass('hidden');
-			$('#trip-info').css("right",30);
-			hideFromTo = true;
-		}	
-	});
-})();
+// 	$(document).ready(function(){
+// 		wwidth = $(document).width();
+// 		if(wwidth < hidePoint)
+// 		{
+// 			$('#trip-info').css("right",70);
+// 			$('#from-to-mobile').addClass('hidden');
+// 			hideFromTo = true;
+// 		}	
+// 		else
+// 		{
+// 			$('#from-to-mobile').addClass('hidden');
+// 			$('#trip-info').css("right",30);
+// 			hideFromTo = true;
+// 		}	
+// 	});
+// })();
 
 /*Cab-Type-Mobile*/
 (function(){
